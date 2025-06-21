@@ -13,7 +13,7 @@ camera.position.set(0,0,5);
 // 2) Carga modelo GLB con Draco
 DRACOLoader.setDecoderPath('/draco/');
 const dracoLoader = new DRACOLoader();
-dracoLoader.setDecoderPath('/draco/');
+
 
 const loader = new GLTFLoader();
 loader.setDRACOLoader(dracoLoader);
